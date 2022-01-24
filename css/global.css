@@ -12,29 +12,24 @@
 body {
     font-family: 'Comfortaa', cursive; 
     background-color: #222;
+    color: #eee
 }
 
 h1, h2, a:visited, a:link, a:hover, a:active {
     color: orange;
 }
 
-p {
+li {
+    color: orange;
+    margin: 0.5em 0;
+}
+
+li span {
     color: #eee;
 }
 
-ul {
-    list-style: none;
-}
-
-ul li::before {
-    content: "\2022";
-    color: orange; 
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
-}
-
-ul li {
-    margin: 0.25em 0;
+img {
+    width: min(90vw, 20cm);
+    aspect-ratio: 3;
+    object-fit: cover;
 }
